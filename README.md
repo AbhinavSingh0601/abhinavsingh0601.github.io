@@ -1,44 +1,48 @@
-# vCard - Personal portfolio
+# Abhinav Singh | Personal Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+Welcome to my personal portfolio website!  
+I'm **Abhinav Singh**, a Chemical Engineering undergraduate at **IIT Roorkee**, passionate about machine learning, data science, and impactful engineering solutions.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## 🚀 About Me
 
-## Demo
+- 🎓 B.Tech Chemical Engineering, IIT Roorkee  
+- 📊 Keen interest in **machine learning**, **data analytics**, and **numerical modeling**
+- 🧪 Working on innovative projects in both **chemical engineering** and **AI**
+- 🌐 Open to collaborations, internships, and research opportunities
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## 🖥️ Technologies Used
 
-## Prerequisites
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Styling:** Tailwind CSS / Custom CSS  
+- **Animations:** Magic UI, GSAP (if applicable)  
+- **Hosting:** GitHub Pages / Vercel / Netlify  
 
-Before you begin, ensure you have met the following requirements:
+## 📂 Folder Structure
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- `index.html`: Main HTML file
+- `styles.css`: Custom CSS styles
+- `assets/`: Folder containing images, icons, and other assets
+## ✨ Features
 
-## Installing vCard
+- 📌 Clean, modern, and responsive design  
+- 📄 Resume and projects showcase  
+- 🧠 Skills, interests, and achievements  
+- 📬 Contact form or links to professional profiles
 
-To install **vCard**, follow these steps:
+## 📜 License
 
-Linux and macOS:
+This portfolio is made available **only for personal and educational use**.  
+Commercial use, redistribution, or modification without permission is **not allowed**.
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+See the [Personal Use License](#) for more details.
 
-Windows:
+---
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+Feel free to explore, get inspired, and connect!
 
-## Contact
+## 📫 Contact Me
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+- 📧 Email: abhinav_s@ch.iitr.ac.in  
+- 💼 LinkedIn: [linkedin.com/in/abhinavsingh0601](https://linkedin.com/in/abhinavsingh0601)  
+- 🌐 Portfolio Live: [abhinavsingh0601.github.io](https://abhinavsingh0601.github.io)
 
-## License
-
-MIT
