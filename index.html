@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Abhinav Singh" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Abhinav Singh</h1>
+
+          <p class="title">Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">abhinav_s@ch.iitr.ac.in</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 8076143555</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Jan 06, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Roorkee, Uttrakhand, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/abhinav-singh-ab256125a/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/AbhinavSingh0601/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/i.am.abhinav_singh/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Project</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a third-year undergraduate student pursuing a B.Tech in Chemical Engineering at IIT Roorkee, with a strong passion for data analytics and data science. I have actively worked on several projects in Machine Learning and analytics, such as developing a Pair Trading Algorithm for financial markets and applying neural style transfer techniques. I have a keen interest in applying machine learning models to solve complex problems and derive actionable insights from large datasets.
+          </p>
+          
+          <p>My academic journey has been complemented by internships, where I developed quantitative models and strategies in financial markets. 
+            My academic journey has been complemented by internships, where I developed quantitative models and strategies in financial markets. 
+            Currently, I have a CGPA of 7.814, and I am eager to continue building my expertise in data science and its applications across various industries.      </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Internships</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item" >
+
+              <div class="service-icon-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/WorldQuant_Text_Logo_2022.jpg/440px-WorldQuant_Text_Logo_2022.jpg" alt="WorldQuant logo" width="40">
+
+              </div>
+
+              <div class="service-content-box" style = "margin : 0px; display: inline-block;">
+                <h4 class="h4 service-item-title">WorldQuant</h4>
+
+                <p class="service-item-text">
+                  As a Research Consultant, I developed multiple Alpha models using BRAIN platform, simulating global financial markets.
+These Alphas, constructed from data-driven strategies, aimed to optimize trading portfolios through weighted
+investments based on market conditions and historical trends.
+</p>
+              </div>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rajneesh K Singh</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Manager - IT Application & Transformation
+                    <br>
+                    STL Digital
+                    <br>
+                    rks.rajput75@gmail.com
+                    <br>
+                    +91 7756015552
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ashish Yadav</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Assistant professor <br>
+Indian Institute of Technology Roorkee  <br>
+ashish@ch.iitr.ac.in  <br>
++91 78971 39106
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Indian Institute of Technology Roorkee</h4>
+
+              <span>2022 - Present</span>
+
+              <p class="timeline-text">
+                Persuing B.Tech in Chemical Engineering with current CGPA-7.84
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Awards & Scholarships</h3>
+          </div>
+        
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Gold Level in WorldQuant Challenge</h4>
+              <p class="timeline-text">
+                Scored more than 10k+ points to achieve gold level in WorldQuant Challenge.
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Global Rank #1408 - Codeforces Round 954 (Div 3.)</h4>
+              <p class="timeline-text">
+                Achieved global rank #1408 in Codeforces Round 954 (Division 3).
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">JEE MAINS - 2406 GEN (99.74%)</h4>
+              <p class="timeline-text">
+                Secured an All India Rank of 2406 in JEE Mains, with a score of 99.74%.
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">JEE ADVANCED - 4222 GEN</h4>
+              <p class="timeline-text">
+                Achieved an All India Rank of 4222 in JEE Advanced.
+              </p>
+            </li>
+          </ol>
+        </section>
+        
+        
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Co-Convener</h4>
+
+              <span>Sangram'24</span>
+
+              <p class="timeline-text">
+                Coordinated the annual sports festival, managing participant logistics, 
+                event scheduling, and securing sponsorships. 
+                Oversaw the successful execution of multiple sports events involving students 
+                from various institutions. Focused on enhancing participant experience through seamless organization and communication.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vice President</h4>
+
+              <span>Appetizer, Hostel Council</span>
+
+              <p class="timeline-text">
+                Led the development and management of "Appetizer," an application 
+                providing real-time campus mess updates. 
+                Collaborated with stakeholders to optimize user 
+                experience and implement feedback-driven improvements, 
+                ensuring the app remained user-friendly and functional.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Additional Secretary</h4>
+
+              <span>ChESS(Chemical Engineering Student Society)</span>
+
+              <p class="timeline-text">
+                Organized major events such as Freshers' welcome, farewells, and sports activities. 
+                Played a key role in coordinating the first-ever Inter-IIT 
+                Chemical Esports Event in collaboration with IIT Bombay, 
+                involving over 400 participants from 14 IITs. 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+       
+
+        
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="project" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data analytics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data analytics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/AbhinavSingh0601/Particle-Clumping">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/turb-re10-5-sphere.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Identifying Clumping Behavior in Particles</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/AbhinavSingh0601/CO2-Uptake-Prediction">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/co2adsorption.jpeg" alt="finance" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Prediction of CO2 Uptake onto Porous Carbons Using ML Models</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/AbhinavSingh0601/NIPU-Optimization">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/optimizingco2.avif" alt="NIPU" loading="lazy">
+                </figure>
+                <h3 class="project-title">Optimizing reaction conditions for synthesis of Non isocynate polyurathene</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data analytics">
+              <a href="https://github.com/AbhinavSingh0601/NSE-Risk-Analysis">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/importance-of-investment.jpg" alt="NSE analysis" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Comprehensive Risk Assessment and Investment Strategy</h3>
+
+                <p class="project-category">Data Analytics</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="data analytics">
+              <a href="https://github.com/AbhinavSingh0601/Pair-Trading">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.jpg" alt="finance" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Pair Trading in python</h3>
+
+                <p class="project-category">Data analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/AbhinavSingh34133/UBA-Website">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="orizon" loading="lazy" >
+                </figure>
+                <h3 class="project-title">UBA Website</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data analytics">
+              <a href="https://github.com/AbhinavSingh0601/Equity-Trading-Strategy">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Technical Analysis Using Python</h3>
+
+                <p class="project-category">Data analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/AbhinavSingh34133/Neural-Style-Transfer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Neural Style Transfer</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
